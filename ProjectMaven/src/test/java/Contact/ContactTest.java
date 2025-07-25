@@ -10,6 +10,11 @@ public class ContactTest {
 	String pass=	System.getProperty("password");
 	System.out.println(user);
 	System.out.println(pass);
-		
+	
+	}
+	public void deletecontact() {
+		System.out.println("delete Contact with phone number");
+	
+	
 	}
 }
