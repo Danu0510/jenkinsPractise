@@ -15,7 +15,7 @@
         <version>3.5.3</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testng-BatchExecution.xml</suiteXmlFile>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
@@ -23,23 +23,6 @@
 	</build>  
   </profile>
   
-  <profile>
-  <id>smoke</id>
-  <build> 
-  <plugins>  
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.5.3</version>
-        <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>testng-SmokeSuite.xml</suiteXmlFile>
-          </suiteXmlFiles>
-        </configuration>
-      </plugin>
-	</plugins>
-	</build>  
-  </profile>
   
   </profiles>
   
