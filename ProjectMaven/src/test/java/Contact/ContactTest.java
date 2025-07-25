@@ -20,6 +20,11 @@ public class ContactTest {
 	public void contactwithaddress() {
 		System.out.println("contactwithaddress  with phone number");
 	
+
+	}
+	public void contactwithaddress1() {
+		System.out.println("contactwithaddress1  with phone number");
 	
+
 	}
 }

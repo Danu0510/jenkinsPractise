@@ -6,7 +6,7 @@
  <profiles>
   
   <profile>
-  <id>batch</id>
+  <id>bt</id>
   <build> 
   <plugins>  
       <plugin>
