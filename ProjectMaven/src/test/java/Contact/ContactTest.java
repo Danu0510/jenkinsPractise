@@ -17,4 +17,9 @@ public class ContactTest {
 	
 	
 	}
+	public void contactwithaddress() {
+		System.out.println("contactwithaddress  with phone number");
+	
+	
+	}
 }
