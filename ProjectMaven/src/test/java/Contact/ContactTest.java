@@ -1,0 +1,15 @@
+package Contact;
+
+import org.testng.annotations.Test;
+
+@Test
+public class ContactTest {
+	public void contactwithPhoneTest() {
+		System.out.println("Contact with phone number");
+	String user=	System.getProperty("username");
+	String pass=	System.getProperty("password");
+	System.out.println(user);
+	System.out.println(pass);
+		
+	}
+}
